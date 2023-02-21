@@ -1,0 +1,16 @@
+import fooding from'../food.png'
+function Navbar() 
+{
+    return(
+        <nav>
+            <div className="logo">
+                <img src={fooding} alt="logo" />
+                <h1>Food Spyders</h1>
+            </div>
+            <div className="navlink">
+                <a href="/">Add Food |</a>
+                <a href="/">Orders</a>
+            </div>
+        </nav>
+    );
+}
